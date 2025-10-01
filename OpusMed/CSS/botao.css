@@ -1,0 +1,28 @@
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem; 
+}
+
+.botao {
+    height: var(--input-height);
+    padding: 0 2rem;
+    border: solid 2px var(--ciano);
+    border-radius: 10px;
+    font-family: var(--corpo);
+    background: var(--cinza);
+    color: var(--branco);
+    transition: 0.2s;
+}
+ 
+.botao:hover{
+    color: var(--ciano);
+    background: var(--branco);
+}
+
+@media (max-width: 800px) {
+    .botao{
+        font-size: 0.7rem;
+    } 
+}

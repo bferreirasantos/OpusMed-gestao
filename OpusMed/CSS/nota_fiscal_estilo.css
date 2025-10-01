@@ -1,0 +1,84 @@
+.date{
+    font-weight: bold;
+    padding: 0.5rem;
+    border-bottom: 2px solid var(--cinza);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background-color: var(--verde-agua);
+}
+
+.personal_data {
+    background-color: var(--azul-bebê);
+    border-bottom: 2px solid var(--cinza);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0.5rem;
+}
+
+.left_side, .right_side {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.nota_fiscal_body {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid var(--cinza);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.personal_data table{
+    border-collapse: collapse;
+    border: none;
+}
+
+.header{
+    background-color: var(--cinza);
+    color: var(--branco);
+    font-size: 14px;
+    margin-right: 5px;
+
+}
+
+.header th{
+    margin-right: 20px;
+        padding: 10px;
+
+
+}
+
+.lines td{
+    padding: 10px;
+    border-bottom: 2px solid var(--cinza);
+}
+
+
+.total{
+    padding: 15px;
+    margin: 2px;
+
+}
+
+.list_of_information table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.list_of_information th,
+.list_of_information td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.list_of_information .total td {
+    font-weight: bold;
+}   
+
+#title{
+    font-weight: bold;
+
+}

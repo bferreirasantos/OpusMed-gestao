@@ -1,0 +1,52 @@
+:root {
+    --bt-margin: 10px;
+    --input-padding-top: 1%;
+}
+
+.btAdicionar {
+    margin: var(--bt-margin);
+}
+
+.btConfirmar {
+    margin: var(--bt-margin);
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputFornecedor {
+    padding-top: var(--input-padding-top);
+}
+
+.inputFornecedor input{
+    width: 100%;
+}
+
+.inputProduto {
+    padding-top: var(--input-padding-top);
+}
+
+.inputQuantidade {
+    padding-top: var(--input-padding-top);
+    width: 25%;
+}
+
+.checkBox {
+    padding-top: var(--input-padding-top);
+    width: 20%;
+}
+
+.table-component input{
+    width: 90%;
+}
+
+.nova-compra .table-component td{
+    padding: 1rem 0 !important;
+}
+
+.containerCompra {
+    display: flex;
+    justify-content: space-between;
+}

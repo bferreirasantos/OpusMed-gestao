@@ -1,0 +1,42 @@
+.table-component table {
+    border-collapse: collapse;
+    border: none;
+}
+
+.table-component tr:first-child.header{
+    background-color: var(--cinza);
+    color: var(--branco);
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.table-component tr:first-child td{
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.table-component td.line {
+    border-bottom: 1.5px solid var(--cinza);
+}
+
+.table-component table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-component th,
+.table-component td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.table-component img {
+    width: 15px;
+}
+
+.table-component .btn-trash {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
